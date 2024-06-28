@@ -2,7 +2,7 @@
 
 Welcome to the UnixWeb Panel project! This Bash script provides a comprehensive control panel for managing your LEMP stack, which includes Linux, Nginx, MySQL (MariaDB), and PHP. The UnixWeb Panel allows you to efficiently manage and monitor your server environment, making it easier to handle various administrative tasks.
 
-![UnixWeb Panel](https://github.com/unixweb-info/UnixWeb-Panel/blob/main/UnixWebPanelDemo.jpg)
+![UnixWeb Panel](https://github.com/unixweb-info/UnixWeb-Panel/blob/main/UnixWebPanel.jpg)
 
 This script is designed to automate server management with an emphasis on information security. At the moment, a number of planned functions have not yet been implemented, but the following features are expected to be introduced:
 
