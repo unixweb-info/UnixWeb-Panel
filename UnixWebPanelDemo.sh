@@ -2622,7 +2622,7 @@ function return_to_main_menu() {
 function create_site() {
     clear  # Clear the screen
     display_header
-    echo -e "Main menu > LEMP Server > \e[1mCreate site\e[0m"
+    echo -e "Main menu > WEB Server > \e[1mCreate site\e[0m"
 
     while true; do
         # Display a list of users with UID >= 1000
@@ -2900,7 +2900,7 @@ function delete_user() {
 function delete_site() {
     clear  # Clear the screen
     display_header
-    echo -e "Main menu > LEMP Server > \e[1mDelete site\e[0m"
+    echo -e "Main menu > WEB Server > \e[1mDelete site\e[0m"
 
     # Output list of sites from the database
     echo "List of added sites:"
@@ -3003,12 +3003,12 @@ if [ "$number_of_sites" -eq 0 ]; then
     create_user
 fi
 
-# LEMP SERVER
+# WEB SERVER
 function lemp_server() {
     while true; do
         clear  # Clear the screen
         display_header
-        echo -e "Main menu > \e[1mLEMP Server\e[0m"
+        echo -e "Main menu > \e[1mWEB Server\e[0m"
         echo "Select an action:"
         echo "1) Create Site"
         echo "2) Delete Site"
@@ -4937,7 +4937,7 @@ function main_menu() {
         echo -e "\e[1mMain menu\e[0m"
         echo "Select an action:"
         echo "1) MariaDB Server"
-        echo "2) LEMP Server"
+        echo "2) WEB Server"
         echo "3) Settings"
         echo "0) Exit"
         read -p "Enter numbers from 0 to 3: " REPLY
@@ -4948,7 +4948,7 @@ function main_menu() {
                 mysql_server  # Call your mysql_server function here
                 ;;
             2)
-                echo "You chose LEMP Server"
+                echo "You chose WEB Server"
                 lemp_server  # Call your lemp_server function here
                 ;;
             3)
