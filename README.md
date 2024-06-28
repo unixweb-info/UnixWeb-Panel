@@ -8,7 +8,7 @@ This script is designed to automate server management with an emphasis on inform
 - Implementation of ModSecurity as a module for Nginx to detect and prevent attacks on web applications.
 - Setting up Fail2ban to automatically respond to suspicious activity.
 
-![UnixWeb Panel](https://raw.githubusercontent.com/unixweb-info/UnixWeb-Panel/main/UnixWebPanel.jpg)
+![UnixWeb Panel](https://github.com/unixweb-info/UnixWeb-Panel/blob/main/UnixWebPanel.jpg)
 
 In addition, the following security and management measures are planned to be integrated:
 
